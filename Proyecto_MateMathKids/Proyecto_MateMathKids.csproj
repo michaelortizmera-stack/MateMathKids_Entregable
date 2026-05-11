@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,25 +43,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <EmbeddedResource Include="obj\Debug\Ejercicios.Form1.resources" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <None Include="obj\Debug\Proyecto_MateMathKids.csproj.AssemblyReference.cache" />
-    <None Include="obj\Debug\Proyecto_MateMathKids.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Debug\Proyecto_MateMathKids.csproj.GenerateResource.cache" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="obj\Debug\Proyecto_MateMathKids.csproj.FileListAbsolute.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bin\Debug\" />
-    <Folder Include="obj\Debug\TempPE\" />
+    <ProjectReference Include="..\Como_sumar\Aprender.csproj">
+      <Project>{202ecce6-f220-464f-8c3b-b2f128500419}</Project>
+      <Name>Aprender</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -60,8 +60,6 @@
     <Compile Include="FormQuiz.Designer.cs">
       <DependentUpon>FormQuiz.cs</DependentUpon>
     </Compile>
-    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
-    <Compile Include="obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -70,9 +68,6 @@
     <EmbeddedResource Include="FormQuiz.resx">
       <DependentUpon>FormQuiz.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="obj\Debug\Ejercicios.Form1.resources" />
-    <EmbeddedResource Include="obj\Debug\Ejercicios.FormQuiz.resources" />
-    <EmbeddedResource Include="obj\Debug\Ejercicios.Properties.Resources.resources" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -82,13 +77,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="bin\Debug\Ejercicios.exe.config" />
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <None Include="obj\Debug\Ejercicios.csproj.AssemblyReference.cache" />
-    <None Include="obj\Debug\Ejercicios.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Debug\Ejercicios.csproj.GenerateResource.cache" />
-    <None Include="obj\Release\Ejercicios.csproj.AssemblyReference.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -102,15 +90,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="bin\Debug\Ejercicios.exe" />
-    <Content Include="bin\Debug\Ejercicios.pdb" />
-    <Content Include="obj\Debug\Ejercicios.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\Ejercicios.exe" />
-    <Content Include="obj\Debug\Ejercicios.pdb" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="obj\Debug\TempPE\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

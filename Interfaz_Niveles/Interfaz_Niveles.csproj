@@ -70,7 +70,6 @@
     <Compile Include="FrmNivelDivision.Designer.cs">
       <DependentUpon>FrmNivelDivision.cs</DependentUpon>
     </Compile>
-    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmMenuPrincipal.resx">
@@ -85,10 +84,6 @@
     <EmbeddedResource Include="FrmNivelDivision.resx">
       <DependentUpon>FrmNivelDivision.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="obj\Debug\Interfaz_Niveles.FrmMenuPrincipal.resources" />
-    <EmbeddedResource Include="obj\Debug\Interfaz_Niveles.FrmNivelDivision.resources" />
-    <EmbeddedResource Include="obj\Debug\Interfaz_Niveles.FrmNivelResta.resources" />
-    <EmbeddedResource Include="obj\Debug\Interfaz_Niveles.Properties.Resources.resources" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -98,13 +93,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="bin\Debug\Interfaz_Niveles.exe.config" />
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <None Include="obj\Debug\Interfaz.69D507CA.Up2Date" />
-    <None Include="obj\Debug\Interfaz_Niveles.csproj.AssemblyReference.cache" />
-    <None Include="obj\Debug\Interfaz_Niveles.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Debug\Interfaz_Niveles.csproj.GenerateResource.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -136,19 +124,6 @@
       <Name>Modelos</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="bin\Debug\BaseDatos.dll" />
-    <Content Include="bin\Debug\BaseDatos.pdb" />
-    <Content Include="bin\Debug\Interfaz_Niveles.exe" />
-    <Content Include="bin\Debug\Interfaz_Niveles.pdb" />
-    <Content Include="bin\Debug\Modelos.dll" />
-    <Content Include="bin\Debug\Modelos.pdb" />
-    <Content Include="obj\Debug\Interfaz_Niveles.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\Interfaz_Niveles.exe" />
-    <Content Include="obj\Debug\Interfaz_Niveles.pdb" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="obj\Debug\TempPE\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -42,24 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EjercicioResta.cs" />
-    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="bin\Debug\Modelos.dll" />
-    <Content Include="bin\Debug\Modelos.pdb" />
-    <Content Include="obj\Debug\Modelos.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\Modelos.dll" />
-    <Content Include="obj\Debug\Modelos.pdb" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <None Include="obj\Debug\Modelos.csproj.AssemblyReference.cache" />
-    <None Include="obj\Debug\Modelos.csproj.CoreCompileInputs.cache" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="obj\Debug\TempPE\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

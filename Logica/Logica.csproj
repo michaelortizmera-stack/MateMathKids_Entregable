@@ -41,7 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="Suma.cs" />
     <Compile Include="ValidacionUsuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -56,25 +55,6 @@
       <Name>Modelos</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="bin\Debug\BaseDatos.dll" />
-    <Content Include="bin\Debug\BaseDatos.pdb" />
-    <Content Include="bin\Debug\Logica.dll" />
-    <Content Include="bin\Debug\Logica.pdb" />
-    <Content Include="bin\Debug\Modelos.dll" />
-    <Content Include="bin\Debug\Modelos.pdb" />
-    <Content Include="obj\Debug\Logica.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\Logica.dll" />
-    <Content Include="obj\Debug\Logica.pdb" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <None Include="obj\Debug\Logica.csproj.AssemblyReference.cache" />
-    <None Include="obj\Debug\Logica.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Debug\Logica.csproj.Up2Date" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="obj\Debug\TempPE\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

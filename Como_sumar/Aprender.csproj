@@ -52,16 +52,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
-    <Compile Include="obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="obj\Debug\Como_sumar.btn_ejercicios.resources" />
-    <EmbeddedResource Include="obj\Debug\Como_sumar.FormAprender.resources" />
-    <EmbeddedResource Include="obj\Debug\Como_sumar.Properties.Resources.resources" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -71,19 +66,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="bin\Debug\Como_sumar.exe.config" />
-    <None Include="bin\Debug\Ejercicios.exe.config" />
-    <None Include="obj\Debug\Aprender.csproj.AssemblyReference.cache" />
-    <None Include="obj\Debug\Aprender.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Debug\Aprender.csproj.GenerateResource.cache" />
-    <None Include="obj\Debug\Aprender.csproj.Up2Date" />
-    <None Include="obj\Debug\Como_sumar.csproj.AssemblyReference.cache" />
-    <None Include="obj\Debug\Como_sumar.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Debug\Como_sumar.csproj.GenerateResource.cache" />
-    <None Include="obj\Debug\Como_sumar.csproj.Up2Date" />
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <None Include="obj\Release\Aprender.csproj.AssemblyReference.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -103,18 +85,6 @@
       <Name>Ejercicios</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="bin\Debug\Como_sumar.exe" />
-    <Content Include="bin\Debug\Como_sumar.pdb" />
-    <Content Include="bin\Debug\Ejercicios.exe" />
-    <Content Include="bin\Debug\Ejercicios.pdb" />
-    <Content Include="obj\Debug\Aprender.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\Como_sumar.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\Como_sumar.exe" />
-    <Content Include="obj\Debug\Como_sumar.pdb" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="obj\Debug\TempPE\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
